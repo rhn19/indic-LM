@@ -7,7 +7,7 @@ State-Of-The-Art Language Models for Indian Languages
 - [IndicNLP News Classification](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/classification/indicnlp-news-articles.tgz)
 - [iNLTK Headlines Classification (cleaned)](https://www.kaggle.com/rhn1903/marathi-news-dataset-cleaned)
 
-Trained using IndicNLP-mr corpus (10% held out for evaluation)
+Trained using IndicNLP-mr corpus (10% held out for evaluation)</br>
 For generating the same splits :
 ```python
 >>>from sklearn.model_selection import train_test_split
