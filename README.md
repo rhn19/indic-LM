@@ -81,7 +81,7 @@ For generating the same splits :
 >>>train, test = train_test_split(lines, shuffle=True, test_size=0.1, random_state=19)
 ```
 
--IndicNLP Corpus
+Links -
 - [IndicNLP Corpus](https://github.com/ai4bharat-indicnlp/indicnlp_corpus)
 - [IndicNLP News Classification](https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/classification/indicnlp-news-articles.tgz)
 - [iNLTK Marathi Headlines Classification (cleaned)](https://www.kaggle.com/rhn1903/marathi-news-dataset-cleaned)
