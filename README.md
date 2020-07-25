@@ -8,6 +8,7 @@ State-Of-The-Art Language Models for Indian Languages
     <th>Model Architecture</th>
     <th>Perplexity</th>
     <th>IndicNLP News (Accuracy/ Kappa)</th>
+    <th>Public Classification Datasets (Accuracy/Kappa)</th>
     <th>PyTorch model</th>
     <th>Tensorboard Logs</th>
   </tr>
@@ -16,11 +17,13 @@ State-Of-The-Art Language Models for Indian Languages
     <td align="center" valign="center">ALBERT-base-v2-550K</td>
     <td align="center" valign="center">37.06</td>
     <td align="center" valign="center">0.96/ 0.93</td>
+    <td align="center" valign="center">iNLTK Headlines<br>0.94/ 0.89</td>
     <td align="center" valign="center"><a href="https://drive.google.com/drive/folders/1KBJfA5ffsHbar4pIfVKGWLThOD_NHmuz?usp=sharing">Checkpoint</a></td>
     <td align="center" valign="center"><a href="https://tensorboard.dev/experiment/qLz6zcKoTQesQQAO33L9SA/">Logs</a></td>
   </tr>
   <tr>
     <td align="center" valign="center">BERT-base</td>
+    <td align="center" valign="center"></td>
     <td align="center" valign="center"></td>
     <td align="center" valign="center"></td>
     <td align="center" valign="center"></td>
@@ -34,9 +37,11 @@ State-Of-The-Art Language Models for Indian Languages
     <td align="center" valign="center"></td>
     <td align="center" valign="center"></td>
     <td align="center" valign="center"></td>
+    <td align="center" valign="center"></td>
   </tr>
   <tr>
     <td align="center" valign="center">BERT-base</td>
+    <td align="center" valign="center"></td>
     <td align="center" valign="center"></td>
     <td align="center" valign="center"></td>
     <td align="center" valign="center"></td>
@@ -47,18 +52,8 @@ State-Of-The-Art Language Models for Indian Languages
 ## Tokenizers
 Trained on the IndicNLP Corpus (Max Samples=10M)
 
-| Language | SentencePiece | WordPiece | ByteLevelBPE |
-| :-: | :-: | :-: | :-: |
-| mr | [spiece](https://drive.google.com/drive/folders/1dzqM2NqNYhaPYQA5ibOytHBlLe5XcgRR?usp=sharing) | [wpiece](https://drive.google.com/drive/folders/1yKkUvdY_QeKV94ueeIgduAaXBAfpYXsB?usp=sharing) | [bpe](https://drive.google.com/drive/folders/1JcvUab_hoRWrHvA-sBCq1eKp1OekNOis?usp=sharing) |
-| hi | [spiece](https://drive.google.com/drive/folders/12PJ2rkeO3tfNbnEIrWW4YldoU3CkHdbQ?usp=sharing) | [wpiece](https://drive.google.com/drive/folders/1sqrBZTXU8-PHaCudxgptZLJAW020ywYp?usp=sharing) | [bpe](https://drive.google.com/drive/folders/1MbC6-uBtGVJ3ettO-ce2zkPVYWlnX_XK?usp=sharing) |
-| pa |
-| bn |
-| or |
-| gu |
-| kn |
-| te |
-| ml |
-| ta |
+[Download](https://drive.google.com/drive/folders/1pMS4Y1mwCo4VZXzoEjq0_9VfXaexqfL7?usp=sharing)<br>
+Contains Tokenizers for the following languages : Marathi, Hindi, Punjabi, Bengali, Oria, Gujurati, Kannada, Telegu, Malayalam, Tamil
 
 **SentencePiece**<br>
 File format : {lang}_ {character_coverage}_ {model_type}_ {vocab_size}_ spiece</br>
